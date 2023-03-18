@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flip card</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
@@ -16,5 +16,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function Toggle() {
+        this.classList.toggle("flip");
+      }
+      let card = document.querySelector(".card");
+      card.addEventListener("click", Toggle);
+    </script>
   </body>
 </html>
