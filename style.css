@@ -24,6 +24,9 @@ body {
   transform-style: preserve-3d; /*Style to transfrom
    If flat then, only front face appears*/
 }
+.card:hover{
+  cursor: pointer;
+}
 .flip {
   cursor: pointer;
   transform: rotateY(180deg) rotateZ(180deg); /*Now on click it will rotate*/
